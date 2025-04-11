@@ -36,7 +36,32 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
    git clone https://github.com/luis-epic/tickemaster-react.git
 
 2. **Accede al directorio del proyecto:cd tickemaster-react
+   ```bash
+   cd tickemaster-react 
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+
+4. Ejecuta el proyecto:
+   ```bash
+   npm run dev
+
+**Cómo Contribuir
+Nos encantaría recibir tus aportes para mejorar este proyecto. Sigue estos pasos para contribuir:
+
+1.Haz un fork del repositorio.
+
+2.Crea una rama para tus cambios:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+```
+
+3.Realiza tus modificaciones y haz un commit:
   ```bash
-   cd tickemaster-react
+   git commit -m "Descripción de los cambios"
+ ```
+4.Envía un pull request para revisión.
 
-
+Licencia
+Este proyecto está bajo la licencia MIT, lo que significa que puedes usar, modificar y distribuir el código de forma libre, siempre y cuando mantengas el reconocimiento al autor original. Consulta el archivo LICENSE para más detalles.
